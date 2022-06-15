@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Head First Design Patterns", "Head First Design Patterns", "{45EC3E34-4AD3-471B-AE6D-1DF48BCB690F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{11DCC158-C79C-4F9B-8723-C317CC611095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck_Strategy", "SimUDuck_Strategy\SimUDuck_Strategy.csproj", "{D2357797-1592-44D6-8BE9-5C801D26AD59}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2357797-1592-44D6-8BE9-5C801D26AD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2357797-1592-44D6-8BE9-5C801D26AD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2357797-1592-44D6-8BE9-5C801D26AD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2357797-1592-44D6-8BE9-5C801D26AD59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11DCC158-C79C-4F9B-8723-C317CC611095} = {45EC3E34-4AD3-471B-AE6D-1DF48BCB690F}
+		{D2357797-1592-44D6-8BE9-5C801D26AD59} = {11DCC158-C79C-4F9B-8723-C317CC611095}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C14EA31C-38B8-4A5B-B1E1-1A78EB3EAF0F}
